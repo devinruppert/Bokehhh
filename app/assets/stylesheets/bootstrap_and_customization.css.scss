@@ -8,22 +8,33 @@ $navbar-default-link-hover-color: #7f8c8d;
 $navbar-default-brand-color: #34495e;
 $navbar-default-brand-hover-color: #7f8c8d;
 $btn-font-weight: 600;
-$btn-primary-color: #9b59b6;
+$btn-primary-color: #16a085;
 $btn-primary-bg: rgba(255,255,255,0);
-$btn-primary-border: #8e44ad;
-$btn-primary-hover-bg: #8e44ad;
+$btn-primary-border: #16a085;
+$btn-primary-hover-bg: #16a085;
 $navbar-border-radius: 0px;
 
 
 @import 'bootstrap';
 
-.tk-chaparral-pro {
+.tk-chaparral-pro-italic {
 	font-family: "chaparral-pro",serif;
 	font-style: italic;
 }
 
+body {
+	font-size: 18px;
+}
+
+.all-text {
+	width: 640px;
+	display: block;
+	margin: 0 auto;
+}
+
 .lighter {
 	opacity: 0.5;
+	margin: 0 0 40px;
 }
 
 .logo {
@@ -98,6 +109,28 @@ $navbar-border-radius: 0px;
 	-moz-filter: blur(12px);
 	-o-filter: blur(12px);
 	-ms-filter: blur(12px);
+}
+
+.sign-up, .login {
+	padding: 20px 40px;
+	margin: 20px 10px;
+}
+
+.login {
+	border-color: #34495e;
+	color: #34495e;
+}
+
+.sign-up:hover {
+	background-color: #16a085;
+	border-color: #16a085;
+	color: #fff;
+}
+
+.login:hover {
+	color: #fff;
+	background-color: #34495e;
+	border-color: #34495e;
 }
 
 .btn-lg, .btn-group-lg > .btn {
