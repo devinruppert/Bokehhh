@@ -1,12 +1,113 @@
-$body-bg: #7f8c8d;
-$navbar-default-bg: #2c3e50;
-$navbar-default-link-color: #fff;
-$navbar-default-link-hover-color: #ccc;
-$navbar-default-link-hover-bg: #34495e;
+$body-bg: #fff;
+$text-color: #2c3e50;
+$font-family-sans-serif: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navbar-default-bg: rgba(255,255,255,0.4);
+$navbar-default-border: rgba(255,255,255,0.6);
+$navbar-default-link-color: #34495e;
+$navbar-default-link-hover-color: #7f8c8d;
+$navbar-default-brand-color: #34495e;
+$navbar-default-brand-hover-color: #7f8c8d;
+$btn-font-weight: 600;
+$btn-primary-color: #9b59b6;
+$btn-primary-bg: rgba(255,255,255,0);
+$btn-primary-border: #8e44ad;
+$btn-primary-hover-bg: #8e44ad;
+$navbar-border-radius: 0px;
 
 
 @import 'bootstrap';
 
-*, h1, h2, h3, h4, h5, h6 {
-	font-family: "proxima-nova";
+.tk-chaparral-pro {
+	font-family: "chaparral-pro",serif;
+	font-style: italic;
+}
+
+.lighter {
+	opacity: 0.5;
+}
+
+.logo {
+	margin-top: 120px;
+	font-size: 6em;
+	line-height: 1em;
+	display: inline-block;
+	font-weight: 700;
+	margin-left: 0.5em;
+}
+
+.bokeh-1 {
+	vertical-align: middle;
+	font-size: 0.8em;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+}
+
+.bokeh-2 {
+	vertical-align: middle;
+	font-size: 0.9em;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+}
+
+.bokeh-3 {
+	vertical-align: middle;
+	font-size: 1em;
+}
+
+.bokeh-4 {
+	vertical-align: middle;
+	font-size: 1.05em;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+}
+
+.bokeh-5 {
+	vertical-align: middle;
+	font-size: 1.1em;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+}
+
+.bokeh-6 {
+	vertical-align: middle;
+	font-size: 1.5em;
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+}
+
+.bokeh-7 {
+	vertical-align: middle;
+	font-size: 2em;
+	filter: blur(12px);
+	-webkit-filter: blur(12px);
+	-moz-filter: blur(12px);
+	-o-filter: blur(12px);
+	-ms-filter: blur(12px);
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	border-radius: 0px;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.center {
+	text-align: center;
 }
