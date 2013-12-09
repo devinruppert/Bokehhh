@@ -1,6 +1,15 @@
 <div class="center">
+
 	<h1 class="logo"><span class="bokeh-1">B</span><span class="bokeh-2">O</span><span class="bokeh-3">K</span><span class="bokeh-4">E</span><span class="bokeh-5">H</span><span class="bokeh-6">H</span><span class="bokeh-7">H</span></h1>
-	<h3 class="tk-chaparral-pro-italic lighter">Low F-stops and the occasional mustache</h3>
-	<%= link_to "SIGN UP", "#", class: "btn btn-primary btn-lg sign-up" %>
-	<%= link_to "LOGIN", "#", class: "btn btn-primary btn-lg login" %>
+
+	<% if user_signed_in? %>
+		# do something
+	<% else %>
+		<h3 class="tk-chaparral-pro-italic lighter">Low F-stops and the occasional mustache</h3>
+		<%= link_to "SIGN UP", new_user_registration_path, class: "btn btn-primary btn-lg sign-up" %>
+		<%= link_to "LOGIN", new_user_session_path, class: "btn btn-primary btn-lg login" %>
+	<% end %>
+
+
+
 </div>
