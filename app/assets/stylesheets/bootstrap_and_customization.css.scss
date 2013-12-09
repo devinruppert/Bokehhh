@@ -26,15 +26,31 @@ body {
 	font-size: 18px;
 }
 
-.all-text {
-	width: 640px;
-	display: block;
-	margin: 0 auto;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+.form-control {
+	text-align: center;
+	border-radius: 0px;
+	padding: 28px 12px;
+}
+
+label {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.form-group input {
+	font-weight: 600;
+	font-size: 1.1em;
+	line-height: 1.4em;
 }
 
 .lighter {
 	opacity: 0.5;
 	margin: 0 0 40px;
+	font-weight: 400;
 }
 
 .logo {
@@ -133,7 +149,7 @@ body {
 	border-color: #34495e;
 }
 
-.btn-lg, .btn-group-lg > .btn {
+.btn, .btn-group-lg > .btn {
 	border-radius: 0px;
 }
 
