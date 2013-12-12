@@ -7,7 +7,7 @@ $navbar-default-link-color: #34495e;
 $navbar-default-link-hover-color: #7f8c8d;
 $navbar-default-brand-color: #34495e;
 $navbar-default-brand-hover-color: #7f8c8d;
-$btn-font-weight: 600;
+$btn-font-weight: 700;
 $btn-primary-color: #16a085;
 $btn-primary-bg: rgba(255,255,255,0);
 $btn-primary-border: #16a085;
@@ -176,6 +176,8 @@ label {
 
 .btn, .btn-group-lg > .btn {
 	border-radius: 0px;
+	border: 2px solid;
+	text-transform: uppercase;
 }
 
 .navbar-brand {
