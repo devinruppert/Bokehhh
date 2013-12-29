@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'devise', '~> 3.2.2.rc2'
+gem 'paperclip', '~> 3.0'
 
 group :development, :test do
 	gem 'sqlite3'
