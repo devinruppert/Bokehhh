@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'devise', '~> 3.2.2.rc2'
 gem 'paperclip', '~> 3.0'
 gem 'aws-sdk-core', '~> 2.0.0.rc1'
+gem "paperclip-aws", "~> 1.6.8"
 
 group :development, :test do
 	gem 'sqlite3'
