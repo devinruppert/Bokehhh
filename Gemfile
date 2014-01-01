@@ -9,11 +9,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'devise', '~> 3.2.2.rc2'
 gem 'paperclip', '~> 3.0'
 gem 'aws-sdk-core', '~> 2.0.0.rc1'
-gem "paperclip-aws", "~> 1.6.8"
+gem 'paperclip-aws', '~> 1.6.8'
+gem 'masonry-rails', '~> 0.2.0'
 
 group :development, :test do
 	gem 'sqlite3'
