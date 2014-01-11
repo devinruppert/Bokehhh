@@ -18,6 +18,7 @@ gem 'paperclip-aws', '~> 1.6.8'
 gem 'masonry-rails', '~> 0.2.0'
 gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
+gem 'turbolinks_transitions', '~> 0.0.5'
 
 group :development, :test do
 	gem 'sqlite3'
